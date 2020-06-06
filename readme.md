@@ -2,6 +2,54 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![codecov](https://codecov.io/gh/zhoutaoo/SpringCloud/branch/master/graph/badge.svg)](https://codecov.io/gh/zhoutaoo/SpringCloud)
 
+# TLDR;
+```bash
+# compile and install jar
+mvn clean install
+
+# starup common services
+cd docker-compose
+docker-compose -f docker-compose.yml -f docker-compose.nacos.yml up -d
+
+# inital database 
+docker-compose up mysql-init
+
+# startup gateway-admin
+cd gateway/gateway-admin
+mvn spring-boot:run
+
+# startup gateway-web
+cd gateway/gateway-web
+mvn spring-boot:run
+
+# startup organization
+cd sysadmin/organization
+mvn spring-boot:run
+
+# startup authorization-server
+cd auth/authorization-server
+mvn spring-boot:run
+
+# startup authentication-server
+cd auth/authorization-server
+mvn spring-boot:run
+
+# now, basic service are ready to use
+# let's start frontend ui
+git clone https://github.com/zhoutaoo/SpringCloud-Admin.git
+cd SpringCloud-Admin
+# my node version is 12.14.1
+npm install --registry=https://registry.npm.taobao.org
+npm run dev
+
+# done!!!
+# a web page is open automaticall at http://localhost:9527
+# use admin passsword to login
+
+```
+
+# Original from the author
+
 ## 快速开始
 
 ### 先决条件
