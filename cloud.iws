@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aea763b4-35b4-4f13-ab78-993ae62b49db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cloud.iws" beforeDir="false" afterPath="$PROJECT_DIR$/cloud.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -291,6 +292,14 @@
       <option name="presentableId" value="Default" />
       <updated>1591415977740</updated>
     </task>
+    <task id="LOCAL-00001" summary="1. add idea files&#10;2. add TLDR; in the readme.md">
+      <created>1591433293866</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591433293866</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -304,6 +313,10 @@
       <flatten-packages value="false" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. add idea files&#10;2. add TLDR; in the readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. add idea files&#10;2. add TLDR; in the readme.md" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>
@@ -358,6 +371,10 @@
     <webview flattenPackages="false" showMembers="false" autoscrollToSource="false" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="295" y="23" key="CommitChangelistDialog2" timestamp="1591433292883">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state x="295" y="23" key="CommitChangelistDialog2/0.23.1680.962@0.23.1680.962" timestamp="1591433292883" />
     <state width="1626" height="234" key="GridCell.Tab.0.bottom" timestamp="1591427657723">
       <screen x="0" y="23" width="1680" height="961" />
     </state>

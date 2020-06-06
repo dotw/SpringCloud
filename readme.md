@@ -3,7 +3,7 @@
 [![codecov](https://codecov.io/gh/zhoutaoo/SpringCloud/branch/master/graph/badge.svg)](https://codecov.io/gh/zhoutaoo/SpringCloud)
 
 # TLDR;
-```bash
+```shell
 # compile and install jar
 mvn clean install
 
