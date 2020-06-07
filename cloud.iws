@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aea763b4-35b4-4f13-ab78-993ae62b49db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/cloud.iws" beforeDir="false" afterPath="$PROJECT_DIR$/cloud.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose.nacos.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose.nacos.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/nacos/prometheus.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/nacos/prometheus.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monitor/admin/src/main/java/com/springboot/admin/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/monitor/admin/src/main/java/com/springboot/admin/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591433293866</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change readme.md">
+      <created>1591433421251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591433421251</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -316,7 +325,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. add idea files&#10;2. add TLDR; in the readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. add idea files&#10;2. add TLDR; in the readme.md" />
+    <MESSAGE value="change readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="change readme.md" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>
@@ -371,10 +381,14 @@
     <webview flattenPackages="false" showMembers="false" autoscrollToSource="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="295" y="23" key="CommitChangelistDialog2" timestamp="1591433292883">
+    <state x="425" y="270" key="#Log_Highlighting_(ideolog)" timestamp="1591452936512">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state x="295" y="23" key="CommitChangelistDialog2/0.23.1680.962@0.23.1680.962" timestamp="1591433292883" />
+    <state x="425" y="270" key="#Log_Highlighting_(ideolog)/0.23.1680.962@0.23.1680.962" timestamp="1591452936512" />
+    <state x="295" y="23" key="CommitChangelistDialog2" timestamp="1591433421009">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state x="295" y="23" key="CommitChangelistDialog2/0.23.1680.962@0.23.1680.962" timestamp="1591433421009" />
     <state width="1626" height="234" key="GridCell.Tab.0.bottom" timestamp="1591427657723">
       <screen x="0" y="23" width="1680" height="961" />
     </state>

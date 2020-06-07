@@ -28,6 +28,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .formLogin().loginPage(adminContextPath + "/login")
                 .successHandler(successHandler).and()
+                .headers().frameOptions().disable()//disable X-Frame-Options=deny in headers
+                .and()
                 .logout().logoutUrl(adminContextPath + "/logout")
                 .and()
                 .httpBasic().and()
